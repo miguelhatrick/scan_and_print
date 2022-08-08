@@ -4,7 +4,7 @@ import os.path
 import re
 from datetime import datetime
 import sys
-from src.vcf.visitor import Visitor
+from visitor import Visitor
 
 
 def load_template(printer_language: str = 'ipl', template_id: int = 0) -> str:

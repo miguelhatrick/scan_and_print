@@ -2,7 +2,7 @@
 #  -*- coding: utf-8 -*-
 from typing import List
 
-from src.vcf.visitor import Visitor
+from vcf.visitor import Visitor
 from vcf import vcf_helper
 from vcf import print_helper
 

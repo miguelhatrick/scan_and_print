@@ -5,7 +5,9 @@ import re
 from datetime import datetime
 from typing import List
 
-from src.vcf.visitor import Visitor
+from visitor import Visitor
+
+vcard_regex_pattern = """.*VCARD\d*BEGIN\:VCARDVERSION\:\d\.\dN\:(\w+);*(.+)ORG\:(.+)TITLE\:(.*?)TEL;.*EMAIL\:(.+)NOTE\:"""
 
 
 def receive_and_save(data: str, destination_directory: str) -> List[Visitor]:
@@ -28,8 +30,8 @@ def match_data(data) -> List[Visitor]:
     :param data: Scanned data
     :return: List[Visitor] Visitor list of matchs
     """
-    pattern = """.*VCARD\d*BEGIN\:VCARDVERSION\:\d\.\dN\:(\w+);*(.+)ORG\:(.+)TITLE\:(.*?)TEL;.*EMAIL\:(.+)NOTE\:"""
-    result = re.match(pattern, data)
+
+    result = re.match(vcard_regex_pattern, data)
     return_data = []
 
     print(data)

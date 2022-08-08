@@ -30,14 +30,17 @@ def run_nonstop():
 
 def process(visitors: List[Visitor]):
     if not len(visitors):
-        print_helper.print_label(template_no_data, printer)
+        print_helper.print_network(template_no_data, network_printer)
 
     for visitor in visitors:
         label_str = print_helper.replace_visitor_fields(template, visitor)
-        print_helper.print_label(label_str, printer)
+        # print_helper.print_label(label_str, printer)
+
+        print_helper.print_network(label_str, network_printer)
 
 
 printer = """\\\\DESKTOP-6DMSB1J\\pc43t"""
+network_printer = '192.168.1.9'
 template = print_helper.load_template('ipl', 0)
 template_no_data = print_helper.load_template_by_filename('ipl_no_data.txt')
 

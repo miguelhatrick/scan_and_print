@@ -4,6 +4,8 @@ import os.path
 import re
 from datetime import datetime
 import sys
+import socket
+
 from .visitor import Visitor
 
 
@@ -57,6 +59,19 @@ def _print_windows(file_location: str, printer_name: str) -> None:
     command = 'PRINT %s /D:"%s"' % (file_location, printer_name)
     print(command)
     os.system(command)
+
+
+def print_network(data: str, host: str = "1.1.1.1") -> None:
+    mysocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    # host = "10.80.209.106"
+    port = 9100
+
+    try:
+        mysocket.connect((host, port))  # connecting to host
+        mysocket.send(str.encode(data))  # using bytes
+        mysocket.close()  # closing connection
+    except:
+        print("BIG NETWORK ERROR")
 
 
 def save_print_file(data) -> str:

@@ -5,7 +5,7 @@ import re
 from datetime import datetime
 from typing import List
 
-from visitor import Visitor
+from .visitor import Visitor
 
 vcard_regex_pattern = """.*VCARD\d*BEGIN\:VCARDVERSION\:\d\.\dN\:(\w+);*(.+)ORG\:(.+)TITLE\:(.*?)TEL;.*EMAIL\:(.+)NOTE\:"""
 

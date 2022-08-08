@@ -1,0 +1,1 @@
+VCARDBEGIN:VCARDVERSION:4.0N:Martin;Marcos AndrsORG:BhassaTITLE:Gerente de VentasTEL;TYPE=work,voice;VALUE=uri:340292TEL;TYPE=cell,voice;VALUE=uri:340292EMAIL:marcosandresmartin@gmail.c

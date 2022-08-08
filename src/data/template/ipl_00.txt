@@ -1,0 +1,62 @@
+<xpml><page quantity='0' pitch='25.4 mm'></xpml>'Seagull:2.1:DP
+INPUT OFF
+VERBOFF
+INPUT ON
+SYSVAR(48) = 0
+ERROR 15,"FONT NOT FOUND"
+ERROR 18,"DISK FULL"
+ERROR 26,"PARAMETER TOO LARGE"
+ERROR 27,"PARAMETER TOO SMALL"
+ERROR 37,"CUTTER DEVICE NOT FOUND"
+ERROR 1003,"FIELD OUT OF LABEL"
+SYSVAR(35)=0
+OPEN "tmp:setup.sys" FOR OUTPUT AS #1
+PRINT#1,"Printing,Media,Print Area,Media Margin (X),0"
+PRINT#1,"Printing,Media,Print Method,Ribbon (TTR)"
+PRINT#1,"Printing,Print Quality,Media Sensitivity,High"
+PRINT#1,"Printing,Media,LTS Sensitivity Level,0"
+PRINT#1,"Printing,Media,Media Type,Media With Gaps"
+PRINT#1,"Printing,Media,Start Adjust,-108"
+PRINT#1,"Printing,Media,Stop Adjust,0"
+PRINT#1,"Printing,Media,Print Area,Media Width,406"
+PRINT#1,"Printing,Media,Print Area,Media Length,204"
+PRINT#1,"Printing,Print Quality,Darkness,55"
+PRINT#1,"Printing,Print Quality,Contrast,+0%"
+PRINT#1,"Printing,Print Quality,Print Speed,150"
+PRINT#1,"Printing,Media,Media Calibration Mode,Fast"
+PRINT#1,"Printing,Media,Length (Slow Mode),0"
+PRINT#1,"Printing,Media,Clip Default,On"
+CLOSE #1
+SETUP "tmp:setup.sys"
+KILL "tmp:setup.sys"
+LTS& OFF
+CUT OFF
+CLIP ON
+CLIP BARCODE ON
+LBLCOND 3,2
+<xpml></page></xpml><xpml><page quantity='1' pitch='25.4 mm'></xpml>CLL
+OPTIMIZE "BATCH" ON
+PP13,40:AN7
+NASC 8
+FT "Univers Condensed Bold",8,0,102
+PT "https://www.dacosys.com"
+PP13,130:FT "Univers Condensed Bold",10,0,102
+PT "Muchas gracias por visitarnos!"
+PP23,201:FT "Andale Mono Bold",10,0,102
+PT "first_name"
+PP23,165:FT "Andale Mono Bold",10,0,102
+PT "last_name"
+PP13,66:FT "Univers Condensed Bold",8,0,102
+PT "info@dacosys.com"
+PP270,83:BARSET "QRCODE",1,1,3,2,1
+PB "https://www.dacosys.com"
+PP397,168:DIR2
+BARSET "EAN8",2,1,2,20
+PB "2123456"
+PP13,93:DIR1
+FT "Univers Condensed Bold",8,0,102
+PT "+54 11 52179472"
+LAYOUT RUN ""
+PF
+PRINT KEY OFF
+<xpml></page></xpml><xpml><end/></xpml>

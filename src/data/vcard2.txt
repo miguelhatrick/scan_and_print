@@ -1,0 +1,29 @@
+VCARDBEGIN:VCARDVERSION:4.0N:Damico;LucasORG:Propato hnos. SAICTITLE:CoordinadorTEL;TYPE=work,voice;VALUE=uri:1122793534TEL;TYPE=cell,voice;VALUE=uri:1122793534EMAIL:ldamico@propato.com.arNOTE:Expo Logisti-k 2018END:
+
+
+VCARDBEGIN:VCARDVERSION:4.0N:Damico;LucasORG:Propato hnos. SAICTITLE:CoordinadorTEL;TYPE=work,voice;VALUE=uri:1122793534TEL;TYPE=cell,voice;VALUE=uri:1122793534EMAIL:ldamico@propato.com.arNOTE:Expo Logisti-k 2018END:
+VCARDBEGIN:VCARDVERSION:4.0N:turiaci;aldanaORG:propato hnosTITLE:AdministrativoTEL;TYPE=work,voice;VALUE=uri:47927709TEL;TYPE=cell,voice;VALUE=uri:EMAIL:aturiaci@propato.comNOTE:Expo Logisti-k 2018END:
+VCARD98765432109876543210BEGIN:VCARDVERSION:4.0N:Meizoso;Laura BeatrizORG:geonet cargo srlTITLE:EmpleadoTEL;TYPE=work,voice;VALUE=uri:44877334TEL;TYPE=cell,voice;VALUE=uri:EMAIL:geonetcargo@hotmail.comNOTE:Expo Transporte 2018END:
+VCARD3818139BEGIN:VCARDVERSION:4.0N:BIALI;CRISTIANORG:CALICOTITLE:AdministrativoTEL;TYPE=work,voice;VALUE=uri:38593590TEL;TYPE=cell,voice;VALUE=uri:EMAIL:BIALI.CRISTIAN.BC@GMAIL.COMNOTE:Expo Logisti-k 2018END:
+VCARDBEGIN:VCARDVERSION:4.0N:Perez;SandraORG:Orlando Lonas SATITLE:Gerente de areaTEL;TYPE=work,voice;VALUE=uri:4546731TEL;TYPE=cell,voice;VALUE=uri:EMAIL:info@orlandolonas.comNOTE:Expo Transporte 2018END:
+VCARDBEGIN:VCARDVERSION:4.0N:Alvarez;Orlando NelsonORG:Orlando Lonas SATITLE:PresidenteTEL;TYPE=work,voice;VALUE=uri:4546731TEL;TYPE=cell,voice;VALUE=uri:155034288EMAIL:sperezk@yahoo.com.arNOTE:Expo Transporte 2018END:
+
+VCARDBEGIN:VCARDVERSION:4.0N:Martin;Marcos AndrsORG:BhassaTITLE:Gerente de VentasTEL;TYPE=work,voice;VALUE=uri:340292TEL;TYPE=cell,voice;VALUE=uri:340292EMAIL:marcosandresmartin@gmail.comNOTE:Expo Logisti-k 2018END:
+
+
+VCARDBEGIN:VCARDVERSION:4.0N:Maillmann;FernandoORG:Ovniplast saTITLE:Jefe de AreaTEL;TYPE=work,voice;VALUE=uri:01167463514TEL;TYPE=cell,voice;VALUE=uri:EMAIL:maillmann.fernando@gmail.comNOTE:Expo Logisti-k 2018END:
+VCARDBEGIN:VCARDVERSION:4.0N:Gastiazoro;NeriORG:Ovniplast S.ATITLE:EmpleadoTEL;TYPE=work,voice;VALUE=uri:02322445594TEL;TYPE=cell,voice;VALUE=uri:0111531804759EMAIL:neritortugas@hotmail.comNOTE:Expo Logisti-k 2018END:
+VCARDBEGIN:VCARDVERSION:4.0N:Ospital;LucasORG:Ricardo ospital saTITLE:AsesorTEL;TYPE=work,voice;VALUE=uri:42933509TEL;TYPE=cell,voice;VALUE=uri:1560006013EMAIL:pedro311268@hotmail.comNOTE:Expo Logisti-k 2018END:
+VCARDBEGIN:VCARDVERSION:4.0N:Ospital;PedroORG:Ricardo Ospital SATITLE:DirectorTEL;TYPE=work,voice;VALUE=uri:42933509TEL;TYPE=cell,voice;VALUE=uri:01160006013EMAIL:pedro@ricardoospital.com.arNOTE:Expo Logisti-k 2018END:
+VCARDBEGIN:VCARDVERSION:4.0N:alvarez;juan manuel ORG:san juan y solis alvarez y di levaTITLE:DirectorTEL;TYPE=work,voice;VALUE=uri:43042115TEL;TYPE=cell,voice;VALUE=uri:EMAIL:jmalvarez@sanjuanysolis.comNOTE:Expo Transporte 2018END:
+VCARDBEGIN:VCARDVERSION:4.0N:Fernndez;GastnORG:BALIARDA S.A.TITLE:Gerente de LogsticaTEL;TYPE=work,voice;VALUE=uri:41225800TEL;TYPE=cell,voice;VALUE=uri:1155179148EMAIL:fernandezgaston@baliarda.com.arNOTE:Expo Logisti-k 2018END:
+VCARDBEGIN:VCARDVERSION:4.0N:Morales;Marcos DanielORG:PST ELECTRONICA LTDATITLE:OtroTEL;TYPE=work,voice;VALUE=uri:47000051TEL;TYPE=cell,voice;VALUE=uri:EMAIL:mmorales@pstarg.com.arNOTE:Expo Transporte 2018END:
+VCARDBEGIN:VCARDVERSION:4.0N:Dignazi;DanielORG:Grupo PieroTITLE:Gerente de ProyectosTEL;TYPE=work,voice;VALUE=uri:40067087TEL;TYPE=cell,voice;VALUE=uri:1140916162EMAIL:ddignazi@grupopiero.comNOTE:Expo Logisti-k 2018END:
+VCARDBEGIN:VCARDVERSION:4.0N:Cantoni;AlejandroORG:grupo pieroTITLE:Jefe de AreaTEL;TYPE=work,voice;VALUE=uri:47629312TEL;TYPE=cell,voice;VALUE=uri:36123563EMAIL:acantoni@grupopiero.comNOTE:Expo Logisti-k 2018END:
+VCARDBEGIN:VCARDVERSION:4.0N:Taly;OresteORG:morano maquinas y herramientas TITLE:Jefe de AreaTEL;TYPE=work,voice;VALUE=uri:47342288TEL;TYPE=cell,voice;VALUE=uri:1151023864EMAIL:service@moranomyh.com.arNOTE:Expo Logisti-k 2018END:
+VCARDBEGIN:VCARDVERSION:4.0N:Gonzalez;DanielORG:Pegaso STFLTITLE:PresidenteTEL;TYPE=work,voice;VALUE=uri:60176682TEL;TYPE=cell,voice;VALUE=uri:1560176682EMAIL:gonzalezagrovial@gmail.comNOTE:Expo Transporte 2018END:
+VCARDBEGIN:VCARDVERSION:4.0N:Jede;Ana ORG:Pegaso STFLTITLE:SecretariaTEL;TYPE=work,voice;VALUE=uri:66914543TEL;TYPE=cell,voice;VALUE=uri:1566914543EMAIL:anapeinados@yahoo.com.arNOTE:Expo Transporte 2018END:VCARDBEGIN:VCARDVERSION:4.0N:Lizarraga;EzequielORG:Rithner Porteous & Cia SACEITITLE:Tcnico especializadoTEL;TYPE=work,voice;VALUE=uri:49121500TEL;TYPE=cell,voice;VALUE=uri:EMAIL:ezequiel.lizarraga1994@gmail.comNOTE:Expo Logisti-k 2018END:
+VCARDBEGIN:VCARDVERSION:4.0N:Rimolo;GiselaORG:Rithner, Porteous y CiaTITLE:Gerente de ComprasTEL;TYPE=work,voice;VALUE=uri:49121500TEL;TYPE=cell,voice;VALUE=uri:1168275537EMAIL:gisela.rimolo@rithner.com.arNOTE:Expo Logisti-k 2018END:
+VCARDBEGIN:VCARDVERSION:4.0N:Passio;AgustinORG:DIARLATITLE:Gerente de LogsticaTEL;TYPE=work,voice;VALUE=uri:68990586TEL;TYPE=cell,voice;VALUE=uri:EMAIL:agustinpassio@hotmail.comNOTE:Expo Logisti-k 2018END:
+VCARDBEGIN:VCARDVERSION:4.0N:Ertola;Matias IgnacioORG:Spirax SarcoTITLE:Ingeniera industrialTEL;TYPE=work,voice;VALUE=uri:45891300TEL;TYPE=cell,voice;VALUE=uri:EMAIL:matiasignacioertola@gmail.comNOTE:Expo Logisti-k 2018END:
+VCARDBEGIN:VCARDVERSION:4.0N:Toloza;FabinORG:Spirax SarcoTITLE:Jefe de AreaTEL;TYPE=work,voice;VALUE=uri:45891300TEL;TYPE=cell,voice;VALUE=uri:EMAIL:fabian.toloza@ar.spiraxsarco.comNOTE:Expo Logisti-k 2018END:

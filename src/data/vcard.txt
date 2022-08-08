@@ -1,1 +1,3 @@
-VCARDBEGIN:VCARDVERSION:4.0N:Martin;Marcos AndrsORG:BhassaTITLE:Gerente de VentasTEL;TYPE=work,voice;VALUE=uri:340292TEL;TYPE=cell,voice;VALUE=uri:340292EMAIL:marcosandresmartin@gmail.c
+VCARDBEGIN:VCARDVERSION:4.0N:Damico;LucasORG:Propato hnos. SAICTITLE:CoordinadorTEL;TYPE=work,voice;VALUE=uri:1122793534TEL;TYPE=cell,voice;VALUE=uri:1122793534EMAIL:ldamico@propato.com.arNOTE:Expo Logisti-k 2018END:
+VCARDBEGIN:VCARDVERSION:4.0N:turiaci;aldanaORG:propato hnosTITLE:AdministrativoTEL;TYPE=work,voice;VALUE=uri:47927709TEL;TYPE=cell,voice;VALUE=uri:EMAIL:aturiaci@propato.comNOTE:Expo Logisti-k 2018END:
+VCARD98765432109876543210BEGIN:VCARDVERSION:4.0N:Meizoso;Laura BeatrizORG:geonet cargo srlTITLE:EmpleadoTEL;TYPE=work,voice;VALUE=uri:44877334TEL;TYPE=cell,voice;VALUE=uri:EMAIL:geonetcargo@hotmail.comNOTE:Expo Transporte 2018END:

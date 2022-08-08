@@ -28,7 +28,7 @@ def match_data(data) -> List[Visitor]:
     :param data: Scanned data
     :return: List[Visitor] Visitor list of matchs
     """
-    pattern = """.*VCARDBEGIN\:VCARDVERSION\:\d\.\dN\:(\w+);*(\w*)ORG:.+EMAIL:(.+)NOTE:"""
+    pattern = """.*VCARDBEGIN\:VCARDVERSION\:\d\.\dN\:(\w+);*(\w*)ORG\:(.+)TITLE\:(.*)TEL;.*EMAIL\:(.+)NOTE\:"""
     result = re.match(pattern, data)
     return_data = []
 

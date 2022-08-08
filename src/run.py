@@ -9,10 +9,15 @@ from vcf import print_helper
 
 def read_file():
     with open("data/vcard.txt", "r") as f:
-        data = f.read()
-        visitors = vcf_helper.receive_and_save(data, './collected')
+        lines = f.readlines()
 
-        process(visitors)
+        for line in lines:
+            if not len(line.strip()):
+                continue
+
+            visitors = vcf_helper.receive_and_save(line, './collected')
+
+            process(visitors)
 
 
 def run_nonstop():

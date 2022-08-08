@@ -29,6 +29,9 @@ def run_nonstop():
 
 
 def process(visitors: List[Visitor]):
+    if not len(visitors):
+        print_helper.print_label(template_no_data, printer)
+
     for visitor in visitors:
         label_str = print_helper.replace_visitor_fields(template, visitor)
         print_helper.print_label(label_str, printer)
@@ -36,4 +39,6 @@ def process(visitors: List[Visitor]):
 
 printer = """\\\\DESKTOP-6DMSB1J\\pc43t"""
 template = print_helper.load_template('ipl', 0)
-read_file()
+template_no_data = print_helper.load_template_by_filename('ipl_no_data.txt')
+
+run_nonstop()

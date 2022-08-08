@@ -4,27 +4,35 @@ import os.path
 import re
 from datetime import datetime
 import sys
-
-
-
 from src.vcf.visitor import Visitor
 
 
 def load_template(printer_language: str = 'ipl', template_id: int = 0) -> str:
     data = ''
     template_filename = '%s_%02d.txt' % (printer_language, template_id)
-    template_file_location = os.path.join('data', 'template', template_filename)
-
-    with open(template_file_location, "r", encoding="utf8") as f:
-        data = f.read()
+    data = _load_template(template_filename)
 
     return data
 
 
-def replace_visitor_fields(template: str, visitor: Visitor) -> str:
-    data = template.replace('first_name', visitor.first_name)
-    data = data.replace('last_name', visitor.last_name)
+def load_template_by_filename(template_filename: str) -> str:
+    data = _load_template(template_filename)
 
+    return data
+
+
+def _load_template(template_filename):
+    template_file_location = os.path.join('data', 'template', template_filename)
+    with open(template_file_location, "r", encoding="utf8") as f:
+        data = f.read()
+    return data
+
+
+def replace_visitor_fields(template: str, visitor: Visitor) -> str:
+    data = template.replace('first_name', visitor.first_name.capitalize())
+    data = data.replace('last_name', visitor.last_name.capitalize())
+    data = data.replace('company', visitor.company.capitalize())
+    data = data.replace('title', visitor.title.capitalize())
     return data
 
 
@@ -40,14 +48,12 @@ def print_label(label_str: str, printer_name: str) -> None:
 
 
 def _print_linux(file_location: str, printer_name: str) -> None:
-
     command = "lpr -P %s %s" % (printer_name, file_location)
     print(command)
     os.system(command)
 
 
 def _print_windows(file_location: str, printer_name: str) -> None:
-
     command = 'PRINT %s /D:"%s"' % (file_location, printer_name)
     print(command)
     os.system(command)

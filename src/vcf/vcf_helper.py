@@ -28,7 +28,7 @@ def match_data(data) -> List[Visitor]:
     :param data: Scanned data
     :return: List[Visitor] Visitor list of matchs
     """
-    pattern = """.*VCARDBEGIN\:VCARDVERSION\:\d\.\dN\:(\w+);*(\w*)ORG\:(.+)TITLE\:(.*)TEL;.*EMAIL\:(.+)NOTE\:"""
+    pattern = """.*VCARD\d*BEGIN\:VCARDVERSION\:\d\.\dN\:(\w+);*(.+)ORG\:(.+)TITLE\:(.*?)TEL;.*EMAIL\:(.+)NOTE\:"""
     result = re.match(pattern, data)
     return_data = []
 
@@ -36,10 +36,13 @@ def match_data(data) -> List[Visitor]:
     if result:
         print("Search successful.")
 
-        visitor = Visitor(result[1].strip(),
-                          result[2].strip(),
-                          result[3].strip()
-                          )
+        visitor = Visitor(
+            result[1].strip(),
+            result[2].strip(),
+            result[3].strip(),
+            result[4].strip(),
+            result[5].strip()
+        )
         return_data = [visitor]
 
     else:

@@ -25,31 +25,28 @@ PP13,38:AN7
 NASC 8
 FT "Univers Condensed Bold",8,0,102
 PT "https://www.dacosys.com"
-PP13,129:FT "Univers Condensed Bold",10,0,102
-PT "Muchas gracias por visitarnos!"
-PP44,251:II
-FT "Andale Mono Bold",10,0,102
-PT "first_name"
-PP44,217:FT "Andale Mono Bold",10,0,102
-PT "last_name"
-PP13,64:NI
-FT "Univers Condensed Bold",8,0,102
+PP13,64:FT "Univers Condensed Bold",8,0,102
 PT "info@dacosys.com"
-PP270,90:BARSET "QRCODE",1,1,3,2,1
+PP251,87:BARSET "QRCODE",1,1,3,2,1
 PB "https://www.dacosys.com"
-PP386,277:DIR2
-BARSET "EAN8",2,1,4,20
+PP356,277:DIR2
+BARSET "EAN8",2,1,4,8
 PB "2123456"
 PP13,90:DIR1
 FT "Univers Condensed Bold",8,0,102
 PT "+54 11 52179472"
-PP29,303:FT "Andale Mono Bold",10,0,102
-PT "company"
-PP78,276:FT "Andale Mono Bold",8,0,102
-PT "title"
-PP13,165:II
+PP52,277:II
 FT "Univers",10,0,203
 PT "DACOSYS"
+PP79,227:NI
+FT "Univers",10,0,203
+PT "Muchas"
+PP86,194:FT "Univers",10,0,203
+PT "gracias"
+PP130,161:FT "Univers",10,0,203
+PT "por"
+PP54,128:FT "Univers",10,0,203
+PT "visitarnos!"
 LAYOUT RUN ""
 PF
 PRINT KEY OFF

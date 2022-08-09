@@ -25,7 +25,7 @@ def load_template_by_filename(template_filename: str) -> str:
 
 def _load_template(template_filename):
     template_file_location = os.path.join('data', 'template', template_filename)
-    with open(template_file_location, "r", encoding="utf8") as f:
+    with open(template_file_location, "r") as f:
         data = f.read()
     return data
 

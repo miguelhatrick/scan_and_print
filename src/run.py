@@ -5,6 +5,7 @@ from typing import List
 from vcf.visitor import Visitor
 from vcf import vcf_helper
 from vcf import print_helper
+import configparser
 
 
 def read_file():
@@ -30,18 +31,21 @@ def run_nonstop():
 
 def process(visitors: List[Visitor]):
     if not len(visitors):
-        print_helper.print_network(template_no_data, network_printer)
+        visitors = [Visitor('Visitante Stand 3355', '', 'Estimado', '', '')]
 
     for visitor in visitors:
         label_str = print_helper.replace_visitor_fields(template, visitor)
-        # print_helper.print_label(label_str, printer)
 
         print_helper.print_network(label_str, network_printer)
 
 
-printer = """\\\\DESKTOP-6DMSB1J\\pc43t"""
-network_printer = '192.168.1.9'
-template = print_helper.load_template('ipl', 0)
-template_no_data = print_helper.load_template_by_filename('ipl_no_data.txt')
+# Read local file `config.ini`.
+config = configparser.ConfigParser()
+config.read('config.ini')
+
+printer = config.get('PRINT', 'LOCAL_PRINTER')
+network_printer = config.get('PRINT', 'NETWORK_PRINTER_1')
+template = print_helper.load_template_by_filename(config.get('PRINT', 'TEMPLATE_NAME'))
+template_no_data = print_helper.load_template_by_filename(config.get('PRINT', 'NO_DATA_TEMPLATE_NAME'))
 
 run_nonstop()

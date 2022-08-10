@@ -7,7 +7,8 @@ from typing import List
 
 from .visitor import Visitor
 
-vcard_regex_pattern = """.*VCARD\d*BEGIN\:VCARDVERSION\:\d\.\dN\:(\w+);*(.+)ORG\:(.+)TITLE\:(.*?)TEL;.*EMAIL\:(.+)NOTE\:"""
+#vcard_regex_pattern = """.*VCARD\d*BEGIN\:VCARDVERSION\:\d\.\dN\:(\w+);*(.+)ORG\:(.+)TITLE\:(.*?)TEL;.*EMAIL\:(.+)NOTE\:"""
+vcard_regex_pattern = """.*vcardversion\:\d\.\dn\:(\w+)\;*(.+)org\:(.+)title\:(.*?)tel;.*email:(.+)end:vcard"""
 
 
 def receive_and_save(data: str, destination_directory: str) -> List[Visitor]:
